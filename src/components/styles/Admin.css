@@ -1,0 +1,37 @@
+.admin {
+  margin-bottom: 80px;
+}
+
+.admin-order {
+  display: flex;
+  border: 2px solid black;
+}
+.admin-left {
+  width: 50%;
+  margin-left: 10px;
+}
+
+.admin-left > p {
+  font-size: 20px;
+}
+
+.admin-product {
+  font-size: 20px;
+}
+
+.name-last {
+  display: flex;
+}
+
+.colorz {
+  color: brown;
+}
+
+@media (max-width: 750px) {
+  .admin-order {
+    flex-direction: column;
+  }
+  .admin-right {
+    margin-left: 10px;
+  }
+}

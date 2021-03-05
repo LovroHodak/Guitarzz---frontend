@@ -1,0 +1,32 @@
+.navbar {
+  position: sticky;
+  top: 0;
+  width: 100%;
+  background-color: black;
+  color: white;
+  height: 90px;
+  margin-top: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar-logo {
+  height: 75px;
+}
+
+.navbar-info {
+  margin-left: 8px;
+  width: 33%;
+}
+
+.navbar-cart {
+  margin-right: 8px;
+  width: 33%;
+  text-align: end;
+}
+
+.navbar-link {
+  text-decoration: none;
+  color: white;
+}
