@@ -44,3 +44,16 @@
     height: 65px;
   }
 }
+
+@media (max-width: 280px) {
+
+  .navbar-info {
+    font-size: 20px;
+  }
+  .navbar-link {
+    font-size: 20px;
+  }
+  .navbar-logo {
+    height: 55px;
+  }
+}
