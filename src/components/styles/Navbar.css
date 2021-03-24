@@ -9,6 +9,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  z-index: 1;
 }
 
 .navbar-logo {
@@ -29,4 +30,17 @@
 .navbar-link {
   text-decoration: none;
   color: white;
+}
+
+@media (max-width: 355px) {
+
+  .navbar-info {
+    font-size: 25px;
+  }
+  .navbar-link {
+    font-size: 25px;
+  }
+  .navbar-logo {
+    height: 65px;
+  }
 }

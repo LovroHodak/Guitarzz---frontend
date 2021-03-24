@@ -20,6 +20,7 @@
   max-width: 275px;
   margin-top: auto;
   margin-bottom: auto;
+  /* position: unset !important; */
 }
 
 .detail-info {
